@@ -55,9 +55,6 @@ timeout: 1200s
 
 # Opsi build
 options:
-  # Machine type untuk build (gunakan yang paling basic untuk menghindari quota issues)
-  machineType: 'E2_HIGHCPU_2'
-  
   # Disk size (dikurangi untuk menghindari quota issues)
   diskSizeGb: 10
   
