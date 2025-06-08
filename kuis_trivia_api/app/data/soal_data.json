@@ -1,0 +1,282 @@
+[
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440001",
+    "pertanyaan": "Siapa presiden pertama Indonesia?",
+    "pilihan": ["Soekarno", "Soeharto", "Habibie", "Megawati"],
+    "jawaban": "Soekarno",
+    "kategori": "sejarah"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440002",
+    "pertanyaan": "Kapan Indonesia merdeka?",
+    "pilihan": ["17 Agustus 1945", "17 Agustus 1944", "17 Agustus 1946", "1 Juni 1945"],
+    "jawaban": "17 Agustus 1945",
+    "kategori": "sejarah"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440003",
+    "pertanyaan": "Siapa yang dijuluki Bapak Proklamator Indonesia?",
+    "pilihan": ["Soekarno", "Mohammad Hatta", "Soekarno dan Mohammad Hatta", "Tan Malaka"],
+    "jawaban": "Soekarno dan Mohammad Hatta",
+    "kategori": "sejarah"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440004",
+    "pertanyaan": "Nama organisasi pemuda yang didirikan pada tanggal 20 Mei 1908 adalah?",
+    "pilihan": ["Budi Utomo", "Sarekat Islam", "Indische Partij", "Jong Java"],
+    "jawaban": "Budi Utomo",
+    "kategori": "sejarah"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440005",
+    "pertanyaan": "Perang Diponegoro terjadi pada tahun?",
+    "pilihan": ["1825-1830", "1820-1825", "1830-1835", "1815-1820"],
+    "jawaban": "1825-1830",
+    "kategori": "sejarah"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440006",
+    "pertanyaan": "Siapa pahlawan nasional yang dijuluki Si Singamangaraja XII?",
+    "pilihan": ["Sisingamangaraja XII", "Cut Nyak Dien", "Tuanku Imam Bonjol", "Pattimura"],
+    "jawaban": "Sisingamangaraja XII",
+    "kategori": "sejarah"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440007",
+    "pertanyaan": "Konferensi Meja Bundar diadakan di kota?",
+    "pilihan": ["Den Haag", "Amsterdam", "Rotterdam", "Utrecht"],
+    "jawaban": "Den Haag",
+    "kategori": "sejarah"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440008",
+    "pertanyaan": "Siapa yang memimpin perlawanan rakyat Aceh terhadap Belanda?",
+    "pilihan": ["Cut Nyak Dien", "Teuku Umar", "Keduanya benar", "Sultan Hasanuddin"],
+    "jawaban": "Keduanya benar",
+    "kategori": "sejarah"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440009",
+    "pertanyaan": "Kapan Sumpah Pemuda diikrarkan?",
+    "pilihan": ["28 Oktober 1928", "20 Mei 1908", "17 Agustus 1945", "30 September 1965"],
+    "jawaban": "28 Oktober 1928",
+    "kategori": "sejarah"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440010",
+    "pertanyaan": "Siapa tokoh yang memimpin Perang Padri?",
+    "pilihan": ["Tuanku Imam Bonjol", "Diponegoro", "Pattimura", "Hasanuddin"],
+    "jawaban": "Tuanku Imam Bonjol",
+    "kategori": "sejarah"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440011",
+    "pertanyaan": "Ibu kota Indonesia adalah?",
+    "pilihan": ["Jakarta", "Surabaya", "Bandung", "Medan"],
+    "jawaban": "Jakarta",
+    "kategori": "geografi"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440012",
+    "pertanyaan": "Pulau terbesar di Indonesia adalah?",
+    "pilihan": ["Kalimantan", "Sumatera", "Papua", "Jawa"],
+    "jawaban": "Kalimantan",
+    "kategori": "geografi"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440013",
+    "pertanyaan": "Gunung tertinggi di Indonesia adalah?",
+    "pilihan": ["Puncak Jaya", "Gunung Kerinci", "Gunung Rinjani", "Gunung Semeru"],
+    "jawaban": "Puncak Jaya",
+    "kategori": "geografi"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440014",
+    "pertanyaan": "Selat yang memisahkan Pulau Jawa dan Sumatera adalah?",
+    "pilihan": ["Selat Sunda", "Selat Malaka", "Selat Makassar", "Selat Bali"],
+    "jawaban": "Selat Sunda",
+    "kategori": "geografi"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440015",
+    "pertanyaan": "Danau terbesar di Indonesia adalah?",
+    "pilihan": ["Danau Toba", "Danau Singkarak", "Danau Maninjau", "Danau Sentani"],
+    "jawaban": "Danau Toba",
+    "kategori": "geografi"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440016",
+    "pertanyaan": "Indonesia terletak di antara dua benua, yaitu?",
+    "pilihan": ["Asia dan Australia", "Asia dan Afrika", "Australia dan Amerika", "Asia dan Eropa"],
+    "jawaban": "Asia dan Australia",
+    "kategori": "geografi"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440017",
+    "pertanyaan": "Provinsi dengan jumlah penduduk terbanyak di Indonesia adalah?",
+    "pilihan": ["Jawa Barat", "Jawa Tengah", "Jawa Timur", "DKI Jakarta"],
+    "jawaban": "Jawa Barat",
+    "kategori": "geografi"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440018",
+    "pertanyaan": "Sungai terpanjang di Indonesia adalah?",
+    "pilihan": ["Sungai Kapuas", "Sungai Musi", "Sungai Barito", "Sungai Mahakam"],
+    "jawaban": "Sungai Kapuas",
+    "kategori": "geografi"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440019",
+    "pertanyaan": "Indonesia memiliki berapa zona waktu?",
+    "pilihan": ["3", "2", "4", "5"],
+    "jawaban": "3",
+    "kategori": "geografi"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440020",
+    "pertanyaan": "Pulau Komodo terletak di provinsi?",
+    "pilihan": ["Nusa Tenggara Timur", "Nusa Tenggara Barat", "Bali", "Jawa Timur"],
+    "jawaban": "Nusa Tenggara Timur",
+    "kategori": "geografi"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440021",
+    "pertanyaan": "Rumus kimia air adalah?",
+    "pilihan": ["H2O", "CO2", "NaCl", "O2"],
+    "jawaban": "H2O",
+    "kategori": "sains"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440022",
+    "pertanyaan": "Planet terdekat dengan matahari adalah?",
+    "pilihan": ["Merkurius", "Venus", "Bumi", "Mars"],
+    "jawaban": "Merkurius",
+    "kategori": "sains"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440023",
+    "pertanyaan": "Proses fotosintesis terjadi pada bagian tumbuhan?",
+    "pilihan": ["Daun", "Akar", "Batang", "Bunga"],
+    "jawaban": "Daun",
+    "kategori": "sains"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440024",
+    "pertanyaan": "Kecepatan cahaya di ruang hampa adalah?",
+    "pilihan": ["300.000 km/s", "150.000 km/s", "450.000 km/s", "200.000 km/s"],
+    "jawaban": "300.000 km/s",
+    "kategori": "sains"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440025",
+    "pertanyaan": "Organ tubuh manusia yang berfungsi memompa darah adalah?",
+    "pilihan": ["Jantung", "Paru-paru", "Hati", "Ginjal"],
+    "jawaban": "Jantung",
+    "kategori": "sains"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440026",
+    "pertanyaan": "Gas yang paling banyak di atmosfer bumi adalah?",
+    "pilihan": ["Nitrogen", "Oksigen", "Karbon dioksida", "Argon"],
+    "jawaban": "Nitrogen",
+    "kategori": "sains"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440027",
+    "pertanyaan": "Satuan dasar untuk mengukur suhu dalam sistem SI adalah?",
+    "pilihan": ["Kelvin", "Celcius", "Fahrenheit", "Rankine"],
+    "jawaban": "Kelvin",
+    "kategori": "sains"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440028",
+    "pertanyaan": "DNA singkatan dari?",
+    "pilihan": ["Deoxyribonucleic Acid", "Deoxyribose Acid", "Deoxynucleic Acid", "Deoxyribonuclease"],
+    "jawaban": "Deoxyribonucleic Acid",
+    "kategori": "sains"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440029",
+    "pertanyaan": "Proses perubahan wujud dari gas menjadi cair disebut?",
+    "pilihan": ["Kondensasi", "Evaporasi", "Sublimasi", "Deposisi"],
+    "jawaban": "Kondensasi",
+    "kategori": "sains"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440030",
+    "pertanyaan": "Hukum Newton yang menyatakan 'aksi sama dengan reaksi' adalah hukum?",
+    "pilihan": ["Ketiga", "Pertama", "Kedua", "Keempat"],
+    "jawaban": "Ketiga",
+    "kategori": "sains"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440031",
+    "pertanyaan": "Berapa jumlah provinsi di Indonesia saat ini?",
+    "pilihan": ["34", "33", "35", "36"],
+    "jawaban": "34",
+    "kategori": "umum"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440032",
+    "pertanyaan": "Mata uang Indonesia adalah?",
+    "pilihan": ["Rupiah", "Ringgit", "Baht", "Peso"],
+    "jawaban": "Rupiah",
+    "kategori": "umum"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440033",
+    "pertanyaan": "Pancasila memiliki berapa sila?",
+    "pilihan": ["5", "4", "6", "7"],
+    "jawaban": "5",
+    "kategori": "umum"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440034",
+    "pertanyaan": "Bahasa resmi Indonesia adalah?",
+    "pilihan": ["Bahasa Indonesia", "Bahasa Jawa", "Bahasa Sunda", "Bahasa Melayu"],
+    "jawaban": "Bahasa Indonesia",
+    "kategori": "umum"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440035",
+    "pertanyaan": "Lagu kebangsaan Indonesia adalah?",
+    "pilihan": ["Indonesia Raya", "Garuda Pancasila", "Bagimu Negeri", "Rayuan Pulau Kelapa"],
+    "jawaban": "Indonesia Raya",
+    "kategori": "umum"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440036",
+    "pertanyaan": "Hari kemerdekaan Indonesia diperingati setiap tanggal?",
+    "pilihan": ["17 Agustus", "1 Juni", "20 Mei", "28 Oktober"],
+    "jawaban": "17 Agustus",
+    "kategori": "umum"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440037",
+    "pertanyaan": "Burung garuda merupakan lambang negara Indonesia yang terdapat pada?",
+    "pilihan": ["Garuda Pancasila", "Bendera Merah Putih", "Lagu Kebangsaan", "Bhinneka Tunggal Ika"],
+    "jawaban": "Garuda Pancasila",
+    "kategori": "umum"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440038",
+    "pertanyaan": "Semboyan Bhinneka Tunggal Ika berarti?",
+    "pilihan": ["Berbeda-beda tetapi tetap satu", "Satu untuk semua", "Bersatu kita teguh", "Gotong royong"],
+    "jawaban": "Berbeda-beda tetapi tetap satu",
+    "kategori": "umum"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440039",
+    "pertanyaan": "ASEAN didirikan pada tahun?",
+    "pilihan": ["1967", "1965", "1970", "1960"],
+    "jawaban": "1967",
+    "kategori": "umum"
+  },
+  {
+    "id": "550e8400-e29b-41d4-a716-446655440040",
+    "pertanyaan": "Organisasi kepemudaan tertua di Indonesia adalah?",
+    "pilihan": ["Budi Utomo", "Jong Java", "Sarekat Islam", "Indische Partij"],
+    "jawaban": "Budi Utomo",
+    "kategori": "umum"
+  }
+]

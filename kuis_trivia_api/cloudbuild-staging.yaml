@@ -1,0 +1,69 @@
+# Google Cloud Build configuration untuk Staging Environment
+# File ini untuk deployment ke staging environment
+
+steps:
+  # Step 1: Build Docker image untuk staging
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [
+      'build',
+      '-t', 'gcr.io/$PROJECT_ID/kuis-trivia-api-staging:$COMMIT_SHA',
+      '-t', 'gcr.io/$PROJECT_ID/kuis-trivia-api-staging:latest',
+      '.'
+    ]
+    id: 'build-staging-image'
+
+  # Step 2: Push image staging
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [
+      'push',
+      'gcr.io/$PROJECT_ID/kuis-trivia-api-staging:$COMMIT_SHA'
+    ]
+    id: 'push-staging-image'
+    waitFor: ['build-staging-image']
+
+  # Step 3: Deploy ke Cloud Run Staging
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: [
+      'run', 'deploy', 'kuis-trivia-api-staging',
+      '--image', 'gcr.io/$PROJECT_ID/kuis-trivia-api-staging:$COMMIT_SHA',
+      '--region', 'asia-southeast2',
+      '--platform', 'managed',
+      '--allow-unauthenticated',
+      '--port', '8000',
+      '--memory', '256Mi',
+      '--cpu', '0.5',
+      '--max-instances', '3',
+      '--min-instances', '0',
+      '--concurrency', '50',
+      '--timeout', '300',
+      '--set-env-vars', 'ENVIRONMENT=staging'
+    ]
+    id: 'deploy-to-staging'
+    waitFor: ['push-staging-image']
+
+  # Step 4: Run basic health check
+  - name: 'gcr.io/cloud-builders/curl'
+    args: [
+      '-f',
+      '--retry', '5',
+      '--retry-delay', '10',
+      '--retry-max-time', '60',
+      'https://kuis-trivia-api-staging-$${RANDOM_SUFFIX}-uc.a.run.app/health'
+    ]
+    id: 'health-check'
+    waitFor: ['deploy-to-staging']
+    allowFailure: true
+
+timeout: 600s
+
+options:
+  machineType: 'E2_STANDARD_2'
+  diskSizeGb: 50
+
+substitutions:
+  _SERVICE_NAME: 'kuis-trivia-api-staging'
+  _REGION: 'asia-southeast2'
+
+images:
+  - 'gcr.io/$PROJECT_ID/kuis-trivia-api-staging:$COMMIT_SHA'
+  - 'gcr.io/$PROJECT_ID/kuis-trivia-api-staging:latest'

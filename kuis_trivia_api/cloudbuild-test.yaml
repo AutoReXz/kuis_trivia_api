@@ -1,0 +1,70 @@
+# Google Cloud Build Configuration for Testing Only
+# Trigger: Pull Request or manual testing
+
+steps:
+  # Step 1: Build the Docker image for testing
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '--build-arg'
+      - 'ENV=test'
+      - '-t'
+      - 'kuis-trivia-api-test:$COMMIT_SHA'
+      - '.'
+    id: 'build-test-image'
+
+  # Step 2: Run unit tests (if we had them)
+  - name: 'kuis-trivia-api-test:$COMMIT_SHA'
+    entrypoint: 'python'
+    args: ['-m', 'pytest', '-v']
+    id: 'run-tests'
+    waitFor: ['build-test-image']
+
+  # Step 3: Run API tests with curl
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'run'
+      - '--rm'
+      - '-d'
+      - '--name=test-container'
+      - '-p'
+      - '8000:8000'
+      - 'kuis-trivia-api-test:$COMMIT_SHA'
+    id: 'start-test-container'
+    waitFor: ['build-test-image']
+
+  # Step 4: Wait for container to be ready and test endpoints
+  - name: 'gcr.io/cloud-builders/curl'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        echo "Waiting for container to start..."
+        sleep 10
+        
+        echo "Testing health endpoint..."
+        curl -f http://localhost:8000/ || exit 1
+        
+        echo "Testing kategori endpoint..."
+        curl -f http://localhost:8000/kategori || exit 1
+        
+        echo "Testing soal endpoint..."
+        curl -f http://localhost:8000/soal?limit=5 || exit 1
+        
+        echo "All API tests passed!"
+    id: 'test-api'
+    waitFor: ['start-test-container']
+
+  # Step 5: Clean up test container
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['stop', 'test-container']
+    id: 'cleanup'
+    waitFor: ['test-api']
+
+# Build timeout
+timeout: '600s'
+
+# Build options
+options:
+  logging: CLOUD_LOGGING_ONLY
+  machineType: 'E2_STANDARD_2'
