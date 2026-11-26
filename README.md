@@ -1,6 +1,6 @@
 # Kuis Trivia API
 
-A FastAPI coursework project that serves Indonesian-language trivia questions from a bundled JSON file. It supports category filtering, a question count limit, and an interactive OpenAPI reference.
+A FastAPI project that serves Indonesian-language trivia questions from a bundled JSON file. It supports category filtering, a question count limit, and an interactive OpenAPI reference.
 
 ## Run Locally
 
